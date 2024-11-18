@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.51);
+}
+.header .logo {
+  display: flex;
+}
+.header .logo img {
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+.header .logo p {
+  margin-top: 16px;
+}
+.header .ic i {
+  padding: 1px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/* -------------------header------------------------------------- */
+.main {
+  display: flex;
+  /* justify-content:space-between; */
+}
+/* ------------main----------------------- */
+.main .sidebar {
+  height: 200vh;
+  background-color: #f0f2f5;
+  width: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .sidebar .top {
+  position: absolute;
+  bottom: 525px;
+  left: 12px;
+}
+/* -------------------sidebar------------------------------------------ */
+.main .sidebar .top ul li {
+  list-style: none;
+  padding: 8px;
+}
+.main .sidebar .top ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* --------------------sidebar-top--------------------------------- */
+.main .sidebar .down {
+  position: relative;
+  top: 550px;
+}
+.main .sidebar .down img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+.main .sidebar .down ul {
+  margin-left: 10px;
+}
+.main .sidebar .down ul li {
+  list-style: none;
+  padding: 10px;
+}
+.main .sidebar .down ul li a {
+  text-decoration: none;
+  color: black;
+}
+/* ---------------sidebardown------------------------------------ */
+.main .chatbox {
+  position: absolute;
+  /* right: 999px; */
+  left: 70px;
+  bottom: 350px;
+}
+.main .chatbox .chat99 {
+  display: block;
+}
+.main .chatbox .ico ul {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+.main .chatbox .ico ul li {
+  list-style: none;
+  margin: 5px;
+}
+.main .chatbox .ico ul li a {
+  text-decoration: none;
+  color: black;
+}
+.main .chatbox .ico .tag {
+  transform: rotate(135deg);
+}
+.main .chatbox .Fhead {
+  position: relative;
+  top: 178px;
+}
+/* ------------------------------------------------------------------- */
+.main .chatbox .input {
+  width: 100%;
+  border: none;
+  border-bottom: 0.5px solid gray;
+  margin-top: 5px;
+  /* margin-bottom: 5px; */
+}
+/* ------------------input----------------------------------------------- */
+.main .chat99 {
+  display: block;
+}
+.main .chat99 .chatT {
+  display: flex;
+  margin: 2px;
+}
+.main .chat99 .chatT img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.main .chat99 .chatT h3 {
+  margin-top: 30px;
+  padding: 5px;
+}
+.main .chat99 .chatT p {
+  margin-top: 30px;
+  padding: 5px;
+  opacity: 0.5;
+}
+.main .chat99 .p99 p {
+  margin-left: 50px;
+  font-size: 14px;
+}
+.main .chat99 hr {
+  opacity: 0.2;
+  width: 100%;
+}
+.main .right {
+  display: block;
+  background-color: #f0f2f5;
+  width: 100%;
+  height: 200vh;
+  margin-left: 300px;
+}
+.main .right img {
+  margin-left: 300px;
+  margin-top: 100px;
+  width: 500px;
+}
+.main .right h4 {
+  text-align: center;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.41);
+}
+.main .right button {
+  margin-left: 500px;
+  margin-top: 10px;
+  background-color: #017561;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}
+
+/* ---------------------media---------------------------- */
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+ .main  .sidebar{
+    display: none;
+  }
+  .main .right{
+    display: none;
+  }
+  .main .chatbox .Fhead .h2{
+    display: none;
+  }
+  .main .chatbox .input{
+    display: none;
+  }
+  .main .chatbox .list{
+    position: absolute;
+  }
+  .main .chatbox .list ul{
+    display: flex;
+  }
+  .main .chatbox .list ul li{
+    list-style: none;
+    padding: 22px;
+    margin-top: 250px;
+  }
+  .main .chatbox .list ul li a{
+    text-decoration: none;
+    color: black;
+  }
+
+}
+
+
+
+
+
+.main .chatbox .Fhead .h{
+  display:none;
+} 
+  .main .chatbox .list{
+  display: none;
+ }
+
+
+
+
